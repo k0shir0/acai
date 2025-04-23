@@ -41,7 +41,9 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     downloadButton.addEventListener('click', () => {
-        window.location.href = '/path/to/your/D3xonUtilityMod.jar'; // Replace with the actual path to your .jar file
+        window.location.href = '    acai
+
+/KoshirosMultiMod.jar'; // Replace with the actual path to your .jar file
     });
 
     serversButton.addEventListener('click', () => {
