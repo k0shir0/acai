@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Awesome Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="initial-prompt" class="prompt-overlay">
+        <div class="prompt-box">
+            <h1>Welcome!</h1>
+            <label for="username">What's your username?</label>
+            <input type="text" id="username" placeholder="Enter your username">
+            <button id="submit-username">Submit</button>
+        </div>
+    </div>
+
+    <div id="main-content" class="hidden">
+        <button id="download-button">Download D3xon utility mod</button>
+        <button id="servers-button">Servers</button>
+        <div id="servers-list" class="hidden">
+            <h2>Available Servers</h2>
+            <ul>
+                <li>Server 1 - IP: 123.45.67.89</li>
+                <li>Server 2 - IP: 98.76.54.32</li>
+                </ul>
+        </div>
+
+        <button id="vip-button">VIP Pass</button>
+        <div id="vip-modal" class="modal hidden">
+            <div class="modal-content">
+                <span class="close-button">&times;</span>
+                <h2>VIP Access</h2>
+                <label for="vip-username">Username:</label>
+                <input type="text" id="vip-username" placeholder="VIP Username"><br><br>
+                <label for="vip-password">Password:</label>
+                <input type="password" id="vip-password" placeholder="VIP Password"><br><br>
+                <button id="submit-vip">Submit</button>
+                <div id="vip-message" class="hidden"></div>
+            </div>
+        </div>
+
+        <div id="vip-content" class="hidden">
+            <h2>Welcome, VIP!</h2>
+            <p>Here's some exclusive content:</p>
+            <ul>
+                <li>Secret Download Link: <a href="#">vip_secret.zip</a></li>
+                <li>Special Announcement: ...</li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</h
+  tml>
