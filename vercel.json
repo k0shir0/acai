@@ -1,0 +1,11 @@
+{
+    "version": 2,
+    "builds": [
+        { "src": "api/submit-data.js", "use": "@vercel/node" },
+        { "src": "api/vip-auth.js", "use": "@vercel/node" }
+    ],
+    "routes": [
+        { "src": "/api/submit-data", "dest": "/api/submit-data.js" },
+        { "src": "/api/vip-auth", "dest": "/api/vip-auth.js" }
+    ]
+}
